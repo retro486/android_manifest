@@ -5,10 +5,10 @@
   <remote name="github-ssh" fetch="ssh://git@github.com" />
   <remote name="gitlab" fetch="https://gitlab.com" />
   <remote name="gitlab-ssh" fetch="ssh://git@gitlab.com" />
-  <remote name="proton" fetch="https://github.com/ProtonAOSP" revision="sc" />
-  <remote name="proton-ssh" fetch="ssh://git@github.com/ProtonAOSP" revision="sc" />
-  <remote name="blobs" fetch="https://github.com/NeutronBlobs" revision="sc" />
-  <remote name="blobs-ssh" fetch="ssh://git@github.com/NeutronBlobs" revision="sc" />
+  <remote name="proton" fetch="https://github.com/retro486" revision="sc" />
+  <remote name="proton-ssh" fetch="ssh://git@github.com/retro486" revision="sc" />
+  <remote name="blobs" fetch="https://github.com/retro486" revision="sc" />
+  <remote name="blobs-ssh" fetch="ssh://git@github.com/retro486" revision="sc" />
 
   <!-- Remove existing repositories -->
   <remove-project name="platform/external/zlib" />
@@ -139,6 +139,7 @@
   <project name="android_external_colorkt" path="external/colorkt" remote="proton" groups="proton" />
   <project name="android_tools_extract-utils" path="tools/extract-utils" remote="proton" groups="proton" />
   <project name="android_vendor_google" path="vendor/google" remote="blobs" groups="proton" />
+<!-- No need for me to start a Gitlab just for GAPPS if ProtonAOSP keeps building them... -->
   <project name="ProtonAOSP/android_vendor_gapps" path="vendor/gapps" remote="gitlab" revision="sc" />
   <project name="android_external_themelib" path="external/themelib" remote="proton" groups="proton" />
   <project name="android_vendor_qcom_opensource_commonsys-intf_display" path="vendor/qcom/opensource/commonsys-intf/display" remote="proton" groups="proton" />
